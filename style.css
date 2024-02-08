@@ -1,0 +1,73 @@
+body {
+    background-color: #2D3250;
+}
+
+.page-title {
+    font-family: Georgia, sans-serif;
+    color: #F6B17A;
+}
+
+.anime-title {
+    font-family: Georgia, sans-serif;
+    color: #F6B17A;
+    font-size: 30px;
+}
+
+.rating {
+  font-family: Georgia, sans-serif;
+  color: rgb(112, 119, 161)
+}
+
+.where {
+  font-family: Georgia, sans-serif;
+  color: #DCF2F1;
+}
+
+.animesum {
+    font-family: Georgia, sans-serif;
+    color: #F6B17A;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    word-spacing: 2px;
+  }
+
+footer {
+  font-family: Georgia, sans-serif;
+  font-size: medium;
+}
+
+hr {
+  border: none;
+  border-top: 3px double white;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr::after {
+  background: #2D3250;
+  content: 'B.C';
+  color: #F6B17A;
+  font-size: 10px;
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+
